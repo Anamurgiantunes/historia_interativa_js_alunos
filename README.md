@@ -1,1 +1,2 @@
-# historia_interativa_js_alunos
+# historia_interativa_JS_alunos
+Criando uma história interativa com JS
