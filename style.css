@@ -1,7 +1,27 @@
-:root{
-    --cor-fundo: #0B0D20;
-    --cor-principal: #0B0D20;
-    --cor-secundaria: #0B0D20;
-    --cor-destaque: #0B0D20;
-    --cor-texto: #0B0D20;
+:root {
+    --cor-fundo: #0a1fd7;
+    --cor-principal: #d8d9e3;
+    --cor-secundaria: #4e9ec5;
+    --cor-destaque: #ba1377;
+    --cor-texto: #191d44;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal {
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-height: 600px;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color:var(--cor-destaque);
 }
