@@ -1,27 +1,37 @@
 :root {
-    --cor-fundo: #0a1fd7;
-    --cor-principal: #d8d9e3;
-    --cor-secundaria: #4e9ec5;
-    --cor-destaque: #ba1377;
-    --cor-texto: #191d44;
+    --cor-fundo: #4A3E6D;
+    --cor-principal: #0b60e8;
+    --cor-secundaria: #FFD3E0;
+    --cor-destaque: #FF82A9;
+    --cor-texto: #3A1051;
 }
-
-body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+body{
+background-color: var(--cor-fundo);
+color: var(--cor-texto);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
 }
-
-.caixa-principal {
+.caixa-principal{
     background-color: var(--cor-principal);
-    width: 90%;
-    max-height: 600px;
-    text-align: center;
-    padding: 20px;
+    max-width: 600px;
+text-align: center;
+padding: 20px;
 }
 h1{
-    color:var(--cor-destaque);
+color: var(--cor-destaque);
+}
+button{
+    background-color: var(--cor-destaque);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+
+}
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    cursor: pointer;
 }
