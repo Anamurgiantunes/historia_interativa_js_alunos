@@ -5,24 +5,28 @@
     --cor-destaque: #FF82A9;
     --cor-texto: #3A1051;
 }
-body{
-background-color: var(--cor-fundo);
-color: var(--cor-texto);
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-.caixa-principal{
+
+.caixa-principal {
     background-color: var(--cor-principal);
     max-width: 600px;
-text-align: center;
-padding: 20px;
+    text-align: center;
+    padding: 20px;
 }
-h1{
-color: var(--cor-destaque);
+
+h1 {
+    color: var(--cor-destaque);
 }
-button{
+
+button {
     background-color: var(--cor-destaque);
     color: var(--cor-texto);
     border: none;
@@ -30,7 +34,8 @@ button{
     transition: background-color 0.3s;
 
 }
-button:hover{
+
+button:hover {
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
     cursor: pointer;
